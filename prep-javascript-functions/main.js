@@ -18,3 +18,17 @@ function getGreeting(name) {
 
 var greeting = getGreeting('Sunshine');
 console.log('greeting', greeting);
+
+function addAndMultiplyBy5(a, b) {
+  return (a + b) * 5;
+}
+
+var addMultiply = addAndMultiplyBy5(3, 5);
+console.log('addMultiply', addMultiply);
+
+function subtractTwoNumbers(c, d) {
+  return c - d;
+}
+
+var subtract = subtractTwoNumbers(20, 5);
+console.log('subtract', subtract);
