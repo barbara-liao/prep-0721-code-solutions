@@ -32,3 +32,17 @@ function subtractTwoNumbers(c, d) {
 
 var subtract = subtractTwoNumbers(20, 5);
 console.log('subtract', subtract);
+
+function getCircleCircumference(r) {
+  return 2 * (22 / 7) * r;
+}
+
+var circumference = getCircleCircumference(4);
+console.log('circumference', circumference);
+
+function getFullName(f, l) {
+  return f + ' ' + l;
+}
+
+var fullName = getFullName('Barbara', 'Liao');
+console.log('fullName', fullName);
