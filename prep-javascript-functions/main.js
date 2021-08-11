@@ -46,3 +46,10 @@ function getFullName(f, l) {
 
 var fullName = getFullName('Barbara', 'Liao');
 console.log('fullName', fullName);
+
+function cube(c) {
+  return c ** 3;
+}
+
+var area = cube(4);
+console.log('area', area);
