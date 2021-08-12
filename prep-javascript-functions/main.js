@@ -34,7 +34,7 @@ var subtract = subtractTwoNumbers(20, 5);
 console.log('subtract', subtract);
 
 function getCircleCircumference(r) {
-  return 2 * (22 / 7) * r;
+  return 2 * Math.PI * r;
 }
 
 var circumference = getCircleCircumference(4);
